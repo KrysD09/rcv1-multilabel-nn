@@ -82,14 +82,12 @@ The notebooks in this repo can be opened directly in Colab:
 
 ### Neural Network Notebook
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrysD09/rcv1-multilabel-nn/blob/main/notebooks/rcv1_neural_network.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrysD09/rcv1-multilabel-nn/blob/main/notebooks/nn_training_baseline.ipynb)
 
 ### Logistic Regression Baseline
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrysD09/rcv1-multilabel-nn/blob/main/notebooks/rcv1_logistic_baseline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KrysD09/rcv1-multilabel-nn/blob/main/notebooks/nn_training_alt.ipynb)
 
-> 🔁 If you name the notebooks differently, just adjust the paths in the URLs:
-> `notebooks/<your-notebook-name>.ipynb`
 
 ---
 
