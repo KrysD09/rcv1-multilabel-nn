@@ -66,11 +66,11 @@ Training details:
 - Metric: `tf.keras.metrics.AUC(curve="PR", multi_label=True, name="pr_auc")`
 - Dataset split: sample 10,000 documents → 80% train / 20% test
 
-Example metrics (update with your final numbers):
+Example metrics :
 
-- PR-AUC (micro): `...`
-- F1 (micro): `...`
-- F1 (macro): `...`
+- PR-AUC (micro): `0.58`
+- F1 (micro): `0.82`
+- F1 (macro): `0.45`
 
 The neural network significantly improves over the logistic baseline, showing the benefit of learning non-linear interactions between features.
 
@@ -95,10 +95,6 @@ The notebooks in this repo can be opened directly in Colab:
 
 ```text
 rcv1-multilabel-nn/
-│
-├─ src/
-│   ├─ neural_network_model.py          # Keras NN model
-│   └─ logistic_regression_baseline.py  # LR One-vs-Rest baseline
 │
 ├─ notebooks/
 │   ├─ rcv1_neural_network.ipynb        # NN in Colab
